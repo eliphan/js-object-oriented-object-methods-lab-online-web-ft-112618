@@ -3,7 +3,7 @@ function BoardMember(name, homeState, training) {
   this.homeState = homeState;
   this.training = training;
   this.sayHi = function(){
-    console.log("Hello everybody!");
+    console.log(`"Hi, my name is ${name}. I am from {<homestate>}, and I was trained in <training>.`);
   }
 }
 
